@@ -1,0 +1,343 @@
+.topheader
+{
+	background-color:skyblue;
+	min-height:35px;
+	color:white;
+	font-weight:bold;
+	font-size:16px;
+}
+.topheaderleft
+{
+	padding-top:8px;
+	color:#000;
+	
+}
+.topheader a
+{
+	
+	float:right;
+	font-weight:bold;
+	font-size:16px;
+	margin:7px;
+}
+.brdr
+{
+	min-height:10px;
+	background-color:red;
+	border-radius:0px 0px 10px 10px;
+}
+.header
+{
+	background-color:#fff;
+	min-height:80px;
+	box-shadow:0px 3px 10px 2px lightgray;
+	
+}
+.menuarea
+{
+	
+}
+.logo
+{
+	background-color:white;
+	min-height:70px;
+	border-radius:0 35px 35px 0;
+	border-right:8px double red;
+}
+.tnavbar
+{
+	border:none;
+	margin-bottom:0px;
+	font-size:16px;
+	
+}
+.navbar-default
+{
+	background-color:white;
+}
+.blinkingtext
+{
+	background-color:white;
+	min-height:17px;
+	text-align:center;
+	font-weight:bold;
+	color:darkblue;
+	font-size:14px;
+	animation:alternate infinite 2s changecolor;
+}
+@keyframes changecolor
+{
+	0%
+	{
+		color:darkblue;
+	}
+	20%
+	{
+		color:pink;
+	}
+	40%
+	{
+		color:maroon;
+	}
+	60%
+	{
+		color:yellowgreen;
+	}
+	80%
+	{
+		color:black;
+	}
+	100%
+	{
+		color:red;
+	}
+}
+.slider
+{
+	min-height:300px;
+}
+.slider img
+{
+	width:100%;
+	padding:0;
+}
+
+.sectionservice
+{
+	/*paiding-top:40px;*/
+	background-color:lightgray;
+	min-height:300px;
+}
+.servicebox
+{
+	margin:70px 0;
+	min-height:250px;
+	background-color:#fff;
+	border-radius:5px;
+	box-shadow:0px 4px 3px opx gray;
+}
+.roundedsection
+{
+	height:100px;
+	width:100px;
+	background-color:white;
+	border-radius:50px;
+	margin :-50px auto;
+	text-align:center;
+	padding-top:20px
+}
+
+.enuerysection
+{
+	min-height:500px;
+	background-color:#000;
+	opacity:0.6;
+}
+.enquiryform
+{
+min-height:400px;
+background-color:#fff;
+margin-top:40px;	
+}
+
+.notification
+{
+	min-height:500px;
+	padding-top:100px;
+	background-color:#fff;
+}
+
+.ourcourses
+{
+	background-color:#c2bebe;
+	min-height:600px;
+	padding-top:100px;
+}
+
+.studentsays
+{
+	background-color:rgba(0,0,0,0.8);
+	min-height:500px;
+	padding-top:50px;
+	color:#fff;
+}
+.msgbox
+{
+	border:2px solid #171616;
+	border-radius:5px;
+	padding:20px 0;
+	background-color:#fff;
+}
+.msgbox h3
+{
+	color:#000;
+}
+.msgbox p
+{
+	color:#000;
+}
+
+.footer
+{
+min-height:300px;
+background-color:#0c4265;
+padding-top:40px;
+color:skyblue;
+}
+.footertitle
+{
+	font-size:30px;
+	font-weight:bold;
+	border-bottom:3px solid #fff;
+}
+.footer-link
+{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	color:#fff;
+	font-size:18px;
+	
+}
+.footer-link li
+{
+	
+	padding-top:10px 0;	
+	border-bottom:1px dashed #777777;	
+}
+.footer-link li a
+{
+	color:#fff;
+	font-weight:bold;
+	
+}
+.footer-link li span
+{
+	float:right;
+	
+}
+.socialicon
+{
+	height:30px;
+	width:30px;
+	margin:5px;
+	padding:5px;
+	border-radius:15px;
+	border:1px solid #fff;
+	float:left;
+	font-size:20px;
+	text-align:center;
+}
+.socialicon:hover
+{
+	color:blue;
+	background-color:#777777;
+}
+.footerbottom
+{
+	color:#777777;
+	min-height:50px;
+	padding-top:15px;
+	background-color:navy;
+}
+.footerbottom a
+{
+	color:#777777;
+	padding-top:15px;
+	
+}
+
+
+
+.broadcartarea h1
+{
+	font-size:45px;
+	text-align:center;
+}
+.broadcartarea 
+{	
+	text-align:center;
+}
+.broadcartarea a
+{
+	
+	font-size:18px;  
+	color:white;
+	background-color:skyblue;
+}
+
+.ourcourses
+{
+	background-color:#c2bebe;
+	min-height:600px;
+	padding-top:100px;
+}
+
+.countbox
+{
+	min-height:500px;
+	padding-top:50px;
+	
+}
+.Ourcourses img:hover
+{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.0); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.book img:hover
+{
+	transform: scaleX(-1);
+}
+
+.wrap
+{
+	background-color:#B3C6B4;
+	
+}
+	
+
+.wrapper
+{
+	background-color:#B3C6B4;
+	height:600px;
+	width:40%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin-right:50px;
+	min-height:600px;
+	
+}
+.curved-moon
+{
+	height:250px;
+	width:250px;
+	box-shadow:-80px 0px 30px 81px #C8C8C8;
+	border-radius:50%;
+}
+.wrapper0
+{
+	background-color:#B3C6B4;
+	min-height:600px;
+
+}
+.wrapper1
+{
+	background-color:#B3C6B4;
+	height:600px;
+	width:40%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+
+	min-height:600px;
+}
+.curved-moon1
+{
+	height:250px;
+	width:250px;
+	box-shadow:80px 0px 30px 81px #fff;
+	border-radius:50%;
+}

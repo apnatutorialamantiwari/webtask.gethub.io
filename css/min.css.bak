@@ -1,0 +1,18 @@
+body{
+	background-color:#eaeef3;
+}
+
+.header{
+	min-height:70px;
+	background-color:#fff;
+	box-shadow:1px 3px 10px 0px gray;
+	position:fixed;
+	
+}
+.logo{
+	min-height:70px;
+	background-color:blue;
+}
+.headerbacklayer{
+	min-height:70p;
+}
